@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Alpha| Educação e Futuro</title>
+    <meta name="description" content="Venha conhecer a proposta pedagógica da nossa escola. Matrículas abertas.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <h1 href="/" class="nav__logo">
+                ESCOLA<span>ALPHA</span>
+            </h1>
+
+            <ul class="nav__list">
+                <li><a href="#metodologia" class="nav__link">Metodologia</a></li>
+                <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+                <li><a href="#unidades" class="nav__link">Unidades</a></li>
+                <li><a href="#form" class="btn btn--primary">Agendar Visita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Educação que transforma potencial em futuro.</h1>
+                    <p class="hero__subtitle">Matrículas abertas para o período letivo de 2026. Garanta a vaga do seu
+                        filho.</p>
+                    <a href="#form" class="btn btn--accent">Quero saber mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="form" class="contact-block">
+            <div class="container contact-grid">
+
+                <article class="contact-info">
+                    <header>
+                        <span class="badge">Admissões 2026</span>
+                        <h2>Fale com nossa equipe de relacionamento</h2>
+                    </header>
+                    <p>Entendemos que escolher a escola ideal é uma decisão importante. Deixe seus dados e agende uma
+                        visita guiada para conhecer nosso espaço e corpo docente.</p>
+
+                    <ul class="contact-features">
+                        <li>✓ Atendimento personalizado</li>
+                        <li>✓ Tour completo pelas instalações</li>
+                        <li>✓ Esclarecimento de dúvidas pedagógicas</li>
+                    </ul>
+                </article>
+
+                <div class="form-card">
+                    <form action="#" method="POST" class="lead-form">
+                        <div class="form-group">
+                            <label for="name">Nome do Responsável</label>
+                            <input type="text" id="name" name="name" placeholder="Ex: Maria Silva" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="segmento">Segmento de Interesse</label>
+                            <select id="segmento" name="segmento" required>
+                                <option value="" disabled selected>Selecione...</option>
+                                <option value="infantil">Educação Infantil</option>
+                                <option value="fundamental1">Ensino Fundamental I</option>
+                                <option value="fundamental2">Ensino Fundamental II</option>
+                                <option value="medio">Ensino Médio</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn--accent" style="width: 100%;">
+                            ENVIAR SOLICITAÇÃO
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nome da Escola. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
